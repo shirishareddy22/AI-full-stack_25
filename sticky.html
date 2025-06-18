@@ -1,59 +1,83 @@
-<>
-    <head>
-        <style>
-            .header{
-                position:sticky;
-                top: 0px;
-                background-color: orange;
-                padding:20px;
-                font-size: 20px;
-                z-index: 10;
-            }
-            .content{
-                 height:100px;
-                 padding:20px;
-                 background-image: linear-gradient(to right,#fa709a 0%,#fee140 100%);
+\<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .header {
+            position: sticky;
+            background-color: blueviolet;
+            top: 0px;
+            padding: 20px;
+            font-size: 20px;
+            z-index: 10;
+            color: white;
+        }
 
-            }
-           
-        </style>
-    </head>
-    <body>
-        <div class="header">Header</div>
-           HTML is a markup language that web browsers use to interpret and compose text, images, and other material into visible or audible web pages. Default characteristics for every item of HTML markup are defined in the browser, and these characteristics can be altered or enhanced by the web page designer's additional use of CSS. Many of the text elements are mentioned in the 1988 ISO technical report TR 9537 Techniques for using SGML, which describes the features of early text formatting languages such as that used by the RUNOFF command developed in the early 1960s for the CTSS (Compatible Time-Sharing System) operating system. These formatting commands were derived from the commands used by typesetters to manually format documents. However, the SGML concept of generalized markup is based on elements (nested annotated ranges with attributes) rather than merely print effects, with separate structure and markup. HTML has been progressively moved in this direction with CSS.
-           HTML is a markup language that web browsers use to interpret and compose text, images, and other material into visible or audible web pages. Default characteristics for every item of HTML markup are defined in the browser, and these characteristics can be altered or enhanced by the web page designer's additional use of CSS. Many of the text elements are mentioned in the 1988 ISO technical report TR 9537 Techniques for using SGML, which describes the features of early text formatting languages such as that used by the RUNOFF command developed in the early 1960s for the CTSS (Compatible Time-Sharing System) operating system. These formatting commands were derived from the commands used by typesetters to manually format documents. However, the SGML concept of generalized markup is based on elements (nested annotated ranges with attributes) rather than merely print effects, with separate structure and markup. HTML has been progressively moved in this direction with CSS.
+        .content {
+            height: 200px;
+            padding: 20px;
+            background-image: linear-gradient(to right, #ddd 0%, #eee 100%);
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">I am sticky header</div>
 
-Berners-Lee considered HTML to be an application of SGML. It was formally defined as such by the Internet Engineering Task Force (IETF) with the mid-1993 publication of the first proposal for an HTML specification, the "Hypertext Markup Language (HTML)" Internet Draft by Berners-Lee and Dan Connolly, which included an SGML Document type definition to define the syntax.[10][11] The draft expired after six months, but was notable for its acknowledgment of the NCSA Mosaic browser's custom tag for embedding in-line images, reflecting the IETF's philosophy of basing standards on successful prototypes. Similarly, Dave Raggett's competing Internet Draft, "HTML+ (Hypertext Markup Format)", from late 1993, suggested standardizing already-implemented features like tables and fill-out forms.[12]
+    <div class="content">
+        The &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document.<br>
+        The &lt;html&gt; element is the root element of an HTML page.<br>
+        The &lt;head&gt; element contains meta information about the HTML page.<br>
+        The &lt;title&gt; element specifies a title for the HTML page (shown in the browser tab).<br>
+        The &lt;body&gt; element defines the document's body, containing headings, paragraphs, images, hyperlinks, tables, lists, etc.<br>
+        The &lt;h1&gt; element defines a large heading.<br>
+        The &lt;p&gt; element defines a paragraph.
+    </div>
+<div class="header">I am sticky header 2</div>
+    <div class="content">
+        The &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document.<br>
+        The &lt;html&gt; element is the root element of an HTML page.<br>
+        The &lt;head&gt; element contains meta information about the HTML page.<br>
+        The &lt;title&gt; element specifies a title for the HTML page (shown in the browser tab).<br>
+        The &lt;body&gt; element defines the document's body, containing headings, paragraphs, images, hyperlinks, tables, lists, etc.<br>
+        The &lt;h1&gt; element defines a large heading.<br>
+        The &lt;p&gt; element defines a paragraph.
+    </div>
 
-After the HTML and HTML+ drafts expired in early 1994, the IETF created an HTML Working Group. In 1995, this working group completed "HTML 2.0", the first HTML specification intended to be treated as a standard against which future implementations should be based.[13]
-
-
-<p>
-    Further development under the auspices of the IETF was stalled by competing interests. Since 1996, the HTML specifications have been maintained, with input from commercial software vendors, by the World Wide Web Consortium (W3C).[14] In 2000, HTML became an international standard (ISO/IEC 15445:2000). HTML 4.01 was published in late 1999, with further errata published through 2001. In 2004, development began on HTML5 in the Web Hypertext Application Technology Working Group (WHATWG), which became a joint deliverable with the W3C in 2008, and was completed and standardized on 28 October 2014.HTML is a markup language that web browsers use to interpret and compose text, images, and other material into visible or audible web pages. Default characteristics for every item of HTML markup are defined in the browser, and these characteristics can be altered or enhanced by the web page designer's additional use of CSS. Many of the text elements are mentioned in the 1988 ISO technical report TR 9537 Techniques for using SGML, which describes the features of early text formatting languages such as that used by the RUNOFF command developed in the early 1960s for the CTSS (Compatible Time-Sharing System) operating system. These formatting commands were derived from the commands used by typesetters to manually format documents. However, the SGML concept of generalized markup is based on elements (nested annotated ranges with attributes) rather than merely print effects, with separate structure and markup. HTML has been progressively moved in this direction with CSS.
-
-Berners-Lee considered HTML to be an application of SGML. It was formally defined as such by the Internet Engineering Task Force (IETF) with the mid-1993 publication of the first proposal for an HTML specification, the "Hypertext Markup Language (HTML)" Internet Draft by Berners-Lee and Dan Connolly, which included an SGML Document type definition to define the syntax.[10][11] The draft expired after six months, but was notable for its acknowledgment of the NCSA Mosaic browser's custom tag for embedding in-line images, reflecting the IETF's philosophy of basing standards on successful prototypes. Similarly, Dave Raggett's competing Internet Draft, "HTML+ (Hypertext Markup Format)", from late 1993, suggested standardizing already-implemented features like tables and fill-out forms.[12]
-
-After the HTML and HTML+ drafts expired in early 1994, the IETF created an HTML Working Group. In 1995, this working group completed "HTML 2.0", the first HTML specification intended to be treated as a standard against which future implementations should be based.[13]
-
-Further development under the auspices of the IETF was stalled by competing interests. Since 1996, the HTML specifications have been maintained, with input from commercial software vendors, by the World Wide Web Consortium (W3C).[14] In 2000, HTML became an international standard (ISO/IEC 15445:2000). HTML 4.01 was published in late 1999, with further errata published through 2001. In 2004, development began on HTML5 in the Web Hypertext Application Technology Working Group (WHATWG), which became a joint deliverable with the W3C in 2008, and was completed and standardized on 28 October 2014.HTML is a markup language that web browsers use to interpret and compose text, images, and other material into visible or audible web pages. Default characteristics for every item of HTML markup are defined in the browser, and these characteristics can be altered or enhanced by the web page designer's additional use of CSS. Many of the text elements are mentioned in the 1988 ISO technical report TR 9537 Techniques for using SGML, which describes the features of early text formatting languages such as that used by the RUNOFF command developed in the early 1960s for the CTSS (Compatible Time-Sharing System) operating system. These formatting commands were derived from the commands used by typesetters to manually format documents. However, the SGML concept of generalized markup is based on elements (nested annotated ranges with attributes) rather than merely print effects, with separate structure and markup. HTML has been progressively moved in this direction with CSS.
-
-Berners-Lee considered HTML to be an application of SGML.
-
-</p>
-
-<p>
-It was formally defined as such by the Internet Engineering Task Force (IETF) with the mid-1993 publication of the first proposal for an HTML specification, the "Hypertext Markup Language (HTML)" Internet Draft by Berners-Lee and Dan Connolly, which included an SGML Document type definition to define the syntax.[10][11] The draft expired after six months, but was notable for its acknowledgment of the NCSA Mosaic browser's custom tag for embedding in-line images, reflecting the IETF's philosophy of basing standards on successful prototypes. Similarly, Dave Raggett's competing Internet Draft, "HTML+ (Hypertext Markup Format)", from late 1993, suggested standardizing already-implemented features like tables and fill-out forms.[12]
-
-After the HTML and HTML+ drafts expired in early 1994, the IETF created an HTML Working Group. In 1995, this working group completed "HTML 2.0", the first HTML specification intended to be treated as a standard against which future implementations should be based.[13]
-
-Further development under the auspices of the IETF was stalled by competing interests. Since 1996, the HTML specifications have been maintained, with input from commercial software vendors, by the World Wide Web Consortium (W3C).[14] In 2000, HTML became an international standard (ISO/IEC 15445:2000). HTML 4.01 was published in late 1999, with further errata published through 2001. In 2004, development began on HTML5 in the Web Hypertext Application Technology Working Group (WHATWG), which became a joint deliverable with the W3C in 2008, and was completed and standardized on 28 October 2014.
-
-Berners-Lee considered HTML to be an application of SGML. It was formally defined as such by the Internet Engineering Task Force (IETF) with the mid-1993 publication of the first proposal for an HTML specification, the "Hypertext Markup Language (HTML)" Internet Draft by Berners-Lee and Dan Connolly, which included an SGML Document type definition to define the syntax.[10][11] The draft expired after six months, but was notable for its acknowledgment of the NCSA Mosaic browser's custom tag for embedding in-line images, reflecting the IETF's philosophy of basing standards on successful prototypes. Similarly, Dave Raggett's competing Internet Draft, "HTML+ (Hypertext Markup Format)", from late 1993, suggested standardizing already-implemented features like tables and fill-out forms.[12]
-
-After the HTML and HTML+ drafts expired in early 1994, the IETF created an HTML Working Group. In 1995, this working group completed "HTML 2.0", the first HTML specification intended to be treated as a standard against which future implementations should be based.[13]
-
-Further development under the auspices of the IETF was stalled by competing interests. Since 1996, the HTML specifications have been maintained, with input from commercial software vendors, by the World Wide Web Consortium (W3C).[14] In 2000, HTML became an international standard (ISO/IEC 15445:2000). HTML 4.01 was published in late 1999, with further errata published through 2001. In 2004, development began on HTML5 in the Web Hypertext Application Technology Working Group (WHATWG), which became a joint deliverable with the W3C in 2008, and was completed and standardized on 28 October 2014. 
-</p> 
-        
-    </body>
+    <div class="content">
+        The &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document.<br>
+        The &lt;html&gt; element is the root element of an HTML page.<br>
+        The &lt;head&gt; element contains meta information about the HTML page.<br>
+        The &lt;title&gt; element specifies a title for the HTML page (shown in the browser tab).<br>
+        The &lt;body&gt; element defines the document's body, containing headings, paragraphs, images, hyperlinks, tables, lists, etc.<br>
+        The &lt;h1&gt; element defines a large heading.<br>
+        The &lt;p&gt; element defines a paragraph.
+    </div>
+    <div class="content">
+        The &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document.<br>
+        The &lt;html&gt; element is the root element of an HTML page.<br>
+        The &lt;head&gt; element contains meta information about the HTML page.<br>
+        The &lt;title&gt; element specifies a title for the HTML page (shown in the browser tab).<br>
+        The &lt;body&gt; element defines the document's body, containing headings, paragraphs, images, hyperlinks, tables, lists, etc.<br>
+        The &lt;h1&gt; element defines a large heading.<br>
+        The &lt;p&gt; element defines a paragraph.
+    </div>
+    <div class="content">
+        The &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document.<br>
+        The &lt;html&gt; element is the root element of an HTML page.<br>
+        The &lt;head&gt; element contains meta information about the HTML page.<br>
+        The &lt;title&gt; element specifies a title for the HTML page (shown in the browser tab).<br>
+        The &lt;body&gt; element defines the document's body, containing headings, paragraphs, images, hyperlinks, tables, lists, etc.<br>
+        The &lt;h1&gt; element defines a large heading.<br>
+        The &lt;p&gt; element defines a paragraph.
+    </div>
+    <div class="content">
+        The &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document.<br>
+        The &lt;html&gt; element is the root element of an HTML page.<br>
+        The &lt;head&gt; element contains meta information about the HTML page.<br>
+        The &lt;title&gt; element specifies a title for the HTML page (shown in the browser tab).<br>
+        The &lt;body&gt; element defines the document's body, containing headings, paragraphs, images, hyperlinks, tables, lists, etc.<br>
+        The &lt;h1&gt; element defines a large heading.<br>
+        The &lt;p&gt; element defines a paragraph.
+    </div>
+</body>
 </html>
