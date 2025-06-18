@@ -2,52 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Four Box Grid</title>
+    <title>Document</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        body, html {
+        body{
             height: 100%;
             width: 100%;
         }
         .container {
             display: flex;
-            flex-wrap: wrap;
             height: 100vh;
             width: 100%;
         }
-        .box {
-            flex: 1 0 50%; /* 2 columns */
+        .container1, .container2 {
+            flex: 1;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 24px;
             color: white;
-            height: 50vh; /* 2 rows */
         }
-        .box1 {
+        .container1 {
             background-color: teal;
         }
-        .box2 {
+        .container2 {
             background-color: tomato;
-        }
-        .box3 {
-            background-color: mediumseagreen;
-        }
-        .box4 {
-            background-color: royalblue;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="box box1">Box 1</div>
-        <div class="box box2">Box 2</div>
-        <div class="box box3">Box 3</div>
-        <div class="box box4">Box 4</div>
+        <div class="container1">Left Side</div>
+        <div class="container2">Right Side</div>
     </div>
 </body>
 </html>
